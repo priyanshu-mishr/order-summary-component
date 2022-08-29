@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 96rem 20rem;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#music-card {
+    max-width: 23rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+img.hero-img {
+    width: 100%;
+}
+
+.card-description {
+    margin: 2rem 2rem;
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+p.text {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    padding: 1.3rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.8rem;
+}
+
+.pricing>img {
+    width: 2.6rem;
+}
+
+.plan-info {
+    margin-right: 3.5rem;
+    font-size: 0.9rem;
+}
+
+p.plan {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0.3rem;
+}
+
+a.change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+a.change:hover {
+    color: hsl(254, 80%, 61%);
+    text-decoration: none;
+}
+
+.btn-pay {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border: none;
+    height: 3rem;
+    border-radius: 0.7rem;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 10px 15px 0px rgba(0, 0, 255, .25);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn-pay:hover {
+    background-color: hsl(254, 80%, 61%);
+}
+
+p.cancel {
+    text-align: center;
+    margin-bottom: 2.2rem;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+p.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+@media (max-width:420px) {
+    body {
+        background-image: url("images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 25rem 11rem;
+    }
+
+    #music-card {
+        max-width: 20.5rem;
+    }
+
+    p.text {
+        font-size: 1rem;
+    }  
+    
+    .pricing{
+        padding: 1rem;
+    }
+
+    .plan-info {
+        margin-right: 1.7rem;
+    }
+}
