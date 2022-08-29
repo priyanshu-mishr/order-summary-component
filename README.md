@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/priyanshu-mishr/order-summary-component.git
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: https://priyanshu-mishr.github.io/order-summary-component/
 
 ## My process
 
